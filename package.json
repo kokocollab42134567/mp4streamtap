@@ -4,10 +4,11 @@
   "description": "API to retrieve video URLs from web pages",
   "main": "retrieveVideoUrl.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "npx esbuild retrieveVideoUrl.js --bundle --outfile=dist/retrieveVideoUrl.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node server.js",
+  "build": "yarn esbuild retrieveVideoUrl.js --bundle --outfile=dist/retrieveVideoUrl.js --platform=node --external:express --external:puppeteer",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+
   "keywords": ["video", "api", "puppeteer", "nodejs"],
   "author": "",
   "license": "ISC",
