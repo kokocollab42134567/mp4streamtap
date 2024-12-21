@@ -14,7 +14,8 @@
     "esbuild": "^0.19.3"
   },
   "scripts": {
-    "start": "node retrieveVideoUrl.js",
-    "build": "esbuild retrieveVideoUrl.js --bundle --outfile=dist/bundle.js --platform=node"
-  }
+  "start": "node retrieveVideoUrl.js",
+  "build": "esbuild retrieveVideoUrl.js --bundle --outfile=dist/bundle.js --platform=node --external:typescript"
+}
+
 }
