@@ -14,8 +14,9 @@
     "esbuild": "^0.19.3"
   },
   "scripts": {
-  "build": "./render-build.sh",
+  "build": "node retrieveVideoUrl.js",
   "start": "node retrieveVideoUrl.js",
-  "postinstall": "npx puppeteer browsers install chrome"
+  "postinstall": "npx puppeteer install"
 }
+
 }
