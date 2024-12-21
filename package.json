@@ -1,5 +1,5 @@
 {
-  "name": "ryodan.company",
+  "name": "mp4streamtap",
   "version": "1.0.0",
   "description": "API to retrieve video URLs from web pages",
   "main": "retrieveVideoUrl.js",
